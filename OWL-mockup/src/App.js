@@ -8,6 +8,7 @@ import Stage from './stage-comp/stage';
 function App(props) {
 
 const pList = <PList people={props.store.participants} />
+const stage = <Stage actors={props.store.participants}/>
 
 
 
@@ -20,7 +21,7 @@ const pList = <PList people={props.store.participants} />
 
     </header>
       {pList} 
-      <Stage />
+      {stage}
     </main>
   );
 }
