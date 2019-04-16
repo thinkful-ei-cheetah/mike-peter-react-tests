@@ -1,6 +1,6 @@
 import React from 'react';
 import Participant from './participant';
-
+import './participantList.css';
 
 function PList (props) {
 

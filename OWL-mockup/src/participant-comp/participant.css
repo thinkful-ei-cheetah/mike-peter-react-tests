@@ -1,0 +1,32 @@
+.participant {
+  display: block;
+}
+
+.avatar {
+  float: none;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+h3 {
+  position: relative;
+  float: none;
+  display: inline-block;
+  margin: 1px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+p {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(133, 133, 133);
+  padding-left: 70px;
+  top: -10px;
+  margin: 1px;
+}
