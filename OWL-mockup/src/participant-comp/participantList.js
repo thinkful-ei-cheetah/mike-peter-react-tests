@@ -4,9 +4,31 @@ import './participantList.css';
 
 function PList (props) {
 
-    const peopleList = props.people.map( person => 
-            <Participant id={person.id} avatar={person.avatar} name={person.name} inSession={person.inSession} onStage={person.onStage} />
-        );
+    const onStage = props.people.map( person => {
+        if (person.onStage) {
+            return <Participant id={person.id} avatar={person.avatar} name={person.name} inSession={person.inSession} onStage={person.onStage} />
+        }
+        return '';
+    }
+    
+);
+
+    const inSessionList = props.people.map( person => {
+            if (person.inSession && !person.onStage) {
+                return <Participant id={person.id} avatar={person.avatar} name={person.name} inSession={person.inSession} onStage={person.onStage} />
+            }
+            return '';
+        }
+        
+    );
+
+    const notInSession = props.people.map( person => {
+        if (!person.inSession) {
+            return <Participant id={person.id} avatar={person.avatar} name={person.name} inSession={person.inSession} onStage={person.onStage} />
+        }
+        return '';
+    }
+);
 
 
     return (
@@ -17,7 +39,13 @@ function PList (props) {
 
         <div className="participant-list">
             <div>
-            {peopleList}    
+            {onStage}
+            </div>
+            <div>
+            {inSessionList}    
+            </div>
+            <div>
+            {notInSession}
             </div>
             
         </div>

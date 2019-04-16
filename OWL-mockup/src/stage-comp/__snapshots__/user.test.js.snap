@@ -2,36 +2,36 @@
 
 exports[`renders the UI as expected 1`] = `
 <div
-  className="participant"
-  id={1}
+  className="user"
+  id="user"
 >
   <img
     alt="avatar"
     src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
   />
   <h3>
-    Koren Templeton
+    test User
   </h3>
   <p>
-    on stage
+    this is user
   </p>
 </div>
 `;
 
 exports[`renders the UI as expected with no unreads 1`] = `
 <div
-  className="participant"
-  id={1}
+  className="user"
+  id="user"
 >
   <img
     alt="avatar"
     src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
   />
   <h3>
-    Koren Templeton
+    test User
   </h3>
   <p>
-    on stage
+    this is user
   </p>
 </div>
 `;

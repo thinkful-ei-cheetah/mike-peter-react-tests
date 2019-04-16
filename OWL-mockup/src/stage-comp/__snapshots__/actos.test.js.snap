@@ -2,7 +2,7 @@
 
 exports[`renders the UI as expected 1`] = `
 <div
-  className="participant"
+  className="actor"
   id={1}
 >
   <img
@@ -13,14 +13,14 @@ exports[`renders the UI as expected 1`] = `
     Koren Templeton
   </h3>
   <p>
-    on stage
+    actor
   </p>
 </div>
 `;
 
 exports[`renders the UI as expected with no unreads 1`] = `
 <div
-  className="participant"
+  className="actor"
   id={1}
 >
   <img
@@ -31,7 +31,7 @@ exports[`renders the UI as expected with no unreads 1`] = `
     Koren Templeton
   </h3>
   <p>
-    on stage
+    actor
   </p>
 </div>
 `;
