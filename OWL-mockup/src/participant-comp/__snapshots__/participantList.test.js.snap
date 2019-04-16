@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<section
+  className="List"
+>
+  <header
+    className="List-header"
+  >
+    <h2>
+      participant list component
+    </h2>
+  </header>
+  <div
+    className="participant-list"
+  >
+    <div>
+      <div
+        className="participant"
+      >
+        <img />
+        <h3 />
+        <p>
+          Left session
+        </p>
+      </div>
+      <div
+        className="participant"
+      >
+        <img />
+        <h3 />
+        <p>
+          Left session
+        </p>
+      </div>
+      <div
+        className="participant"
+      >
+        <img />
+        <h3 />
+        <p>
+          Left session
+        </p>
+      </div>
+      <div
+        className="participant"
+      >
+        <img />
+        <h3 />
+        <p>
+          Left session
+        </p>
+      </div>
+      <div
+        className="participant"
+      >
+        <img />
+        <h3 />
+        <p>
+          Left session
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`renders the UI as expected with no unreads 1`] = `
+<section
+  className="List"
+>
+  <header
+    className="List-header"
+  >
+    <h2>
+      participant list component
+    </h2>
+  </header>
+  <div
+    className="participant-list"
+  >
+    <div>
+      <div
+        className="participant"
+      >
+        <img />
+        <h3 />
+        <p>
+          Left session
+        </p>
+      </div>
+      <div
+        className="participant"
+      >
+        <img />
+        <h3 />
+        <p>
+          Left session
+        </p>
+      </div>
+      <div
+        className="participant"
+      >
+        <img />
+        <h3 />
+        <p>
+          Left session
+        </p>
+      </div>
+      <div
+        className="participant"
+      >
+        <img />
+        <h3 />
+        <p>
+          Left session
+        </p>
+      </div>
+      <div
+        className="participant"
+      >
+        <img />
+        <h3 />
+        <p>
+          Left session
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+`;

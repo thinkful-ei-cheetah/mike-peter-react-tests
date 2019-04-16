@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="participant"
+  id={1}
+>
+  <img
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <h3>
+    Koren Templeton
+  </h3>
+  <p>
+    on stage
+  </p>
+</div>
+`;
+
+exports[`renders the UI as expected with no unreads 1`] = `
+<div
+  className="participant"
+  id={1}
+>
+  <img
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <h3>
+    Koren Templeton
+  </h3>
+  <p>
+    on stage
+  </p>
+</div>
+`;
